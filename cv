@@ -1,0 +1,97 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage[left=2cm, right=2cm, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+
+% Page style
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{1pt} % no line in header area
+
+% Set up hyperlink styling
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+}
+
+% Custom section formatting
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{6pt}  % Reducing the space around sections
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}  % Reducing the space between paragraphs
+
+\begin{document}
+
+% Heading
+{\large \textbf{Mohammed AZRI}}\\[0.2em]
+\href{mailto:mohammed.azri.pro@gmail.com}{mohammed.azri.pro@gmail.com} \textbullet{}
++33781606565 \textbullet{}
+\href{https://www.salesforce.com/trailblazer/mohammedazri}{Trailblazer Profile} \textbullet{}
+\href{https://www.linkedin.com/in/mohammed-azri-%E2%98%81%EF%B8%8F-0a251b184/}{LinkedIn Profile} \textbullet{}
+\href{https://github.com/Mohammedazri}{GitHub Profile} \textbullet{}
+Grenoble, France
+
+% Horizontal rule after the header
+\rule{\textwidth}{0.5pt}
+\renewcommand{\baselinestretch}{2.5}
+% Professional Summary
+\section*{Summary}
+Dynamic Salesforce Developer, I possess over +4 years of Information Technology experience, with a specialized focus on CRM Salesforce platforms for more than +2 years. My background equips me with a deep understanding of technical solutions, enabling me to deliver high-quality Salesforce applications to meet business requirements effectively
+
+
+
+
+% Experience
+\section*{Experience}
+\textbf{Salesforce Developer, Cognizant Technology Solutions} \hfill Grenoble, France | April 2022 - Present
+\begin{itemize}[noitemsep]
+\item Perform regular Salesforce administrative tasks such as creating Page Layouts, Email Services, Validation Rules, Approvals, Workflows, Process Builders, Reports \& Dashboards, Custom Formula Fields, Tasks, and Events
+\item Design and develop Apex Classes, Lightning Web Components (LWC), Flows, Standard \& Custom Controllers, and Apex.\&.
+
+Triggers for various functional needs in the application.
+\item Create technical design documents.
+\end{itemize}
+
+\textbf{Developer/Programmer Analyst, IFSTTAR} \hfill Paris, France | April 2021 - December 2021
+\begin{itemize}[noitemsep]
+\item Manipulated data using C/C++.
+\item Developed Visualization Data Tools using Matlab/Python.
+\end{itemize}
+
+% Skills
+\section*{Skills}
+\begin{itemize}[noitemsep]
+\item Administrator, Flows, Process Builder, Workflows
+\item JavaScript, Lightning Web Components
+\item Advanced Apex Programming,SOQL,SOSL
+\item Custom Integration (REST API, SOAP,...) 
+\item Deployments, Management tools
+
+\end{itemize}
+
+% Certifications
+\section*{Certificates}
+\begin{itemize}[noitemsep]
+    \item Salesforce Certified Platform App Builder \hfill Aug 2023
+    \item Salesforce Certified Associate \hfill May 2023
+    \item Salesforce Certified Administrator \hfill Oct 2022
+    \item Salesforce Certified Platform Developer I \hfill Sep 2022
+    \item Ranger Trailhead
+\end{itemize}
+
+% Education
+\section*{Education}
+\textbf{University of Paris-Saclay} \hfill Paris, France \\
+Master's Degree in Electronic and IT Embedded Systems. \hfill Dec 2021
+
+% Languages
+\section*{Languages}
+English (Professional), French (Bilingual), Arabic (Native)
+
+\end{document}
